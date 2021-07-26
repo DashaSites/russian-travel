@@ -1,5 +1,5 @@
 .lead__title {
-  width: 720px;
+  max-width: 720px;
   margin-top: 0;
   margin-right: auto;
   margin-bottom: 32px;

@@ -1,0 +1,42 @@
+.place {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: grid;
+  padding-bottom: 80px;
+  grid-template-columns: 1fr 484px;
+  grid-template-rows: 1fr 460px;
+  column-gap: 40px;
+  row-gap: 48px;
+}
+
+.place:last-of-type {
+  padding-bottom: 0;
+}
+
+
+/*
+.place для разрешения 1024{
+grid-template-columns: minmax(440px, 1fr) 456px;
+
+}
+*/
+
+
+/*
+.place для разрешения 768{
+grid-template-columns: minmax(340px, 1fr) 352px;
+
+}
+*/
+
+
+/*
+.place для разрешения 768{
+grid-template-columns: minmax(320px, maxcontent/1fr);
+
+}
+
+А ДЛЯ КАКОГО-НИТЬ ПРОМЕЖУТКА МОЖНО ЗАДАТЬ И:
+grid-template-columns: repeat(auto-fit, minmax(320/340px/440px, 1fr));
+*/
