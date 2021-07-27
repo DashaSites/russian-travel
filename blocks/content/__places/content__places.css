@@ -4,4 +4,11 @@
   margin-right: auto;
   margin-bottom: 0;
   margin-left: auto;
+  outline: 1px solid red;
+}
+
+@media screen and (max-width: 1024px) {
+  .content__places {
+    max-width: 90.6%;
+  }
 }

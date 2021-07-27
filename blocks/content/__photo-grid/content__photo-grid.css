@@ -2,3 +2,15 @@
   max-width: 92.5%;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1024px) {
+  .content__photo-grid {
+    width: 90.6%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content__photo-grid {
+    width: 93.7%;
+  }
+}

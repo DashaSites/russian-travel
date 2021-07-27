@@ -1,4 +1,11 @@
 .cover__background {
   background: center center no-repeat url("../../../images/cover-trains.jpg");
   background-size: cover;
+  height: 740px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__background {
+    height: 640px;
+  }
 }

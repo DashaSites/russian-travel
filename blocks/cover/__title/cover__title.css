@@ -3,11 +3,18 @@
   font-size: 72px;
   line-height: 76px;
   color: #fff;
-  margin-top: 0;
-  margin-right: auto;
-  margin-bottom: 32px;
-  margin-left: auto;
   padding: 0;
-  max-width: 560px;
+  width: 560px;
   text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 33.5%;
+  left: 26.5%;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__title {
+    top: 30.5%;
+    left: 23%;
+  }
 }

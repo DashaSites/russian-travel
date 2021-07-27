@@ -1,9 +1,8 @@
 .cover__overlay {
   background: rgba(42, 44, 47, 0.3);
-  padding-top: 245px;
-  padding-right: 312px;
-  padding-bottom: 245px;
-  padding-left: 312px;
+  height: 100%;
+  text-decoration: none;
+  position: relative;
   transition: .3s
 }
 
