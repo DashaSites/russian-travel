@@ -5,12 +5,12 @@
 
 @media screen and (max-width: 1024px) {
   .content__photo-grid {
-    width: 90.6%;
+    max-width: 90.6%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .content__photo-grid {
-    width: 93.7%;
+    max-width: 93.7%;
   }
 }

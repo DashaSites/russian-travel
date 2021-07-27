@@ -8,14 +8,14 @@
 
 @media screen and (max-width: 1024px) {
   .page__header {
-    width: 90.6%;
+    max-width: 90.6%;
     margin-bottom: 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .page__header {
-    width: 93.7%;
+    max-width: 93.7%;
   }
 }
 
