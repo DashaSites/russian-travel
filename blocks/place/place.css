@@ -5,7 +5,6 @@
   display: grid;
   padding-bottom: 80px;
   grid-template-columns: 46.7% 49.1%;
-  /*grid-template-rows: auto-fit 46.7%; НАСТАВНИК СКАЗАЛ УБРАТЬ РАЗМЕРЫ ДЛЯ СТРОК, Я НЕ ПОНЯЛА, ПОЧЕМУ. ОСТАВЛЯЮ ДЛЯ СЕБЯ, ЧТОБЫ ПОТОМ ПОНЯТЬ*/
   column-gap: 40px;
   row-gap: 48px;
 }
@@ -17,7 +16,6 @@
 @media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: 47.4% 49.1%;
-    /*grid-template-rows: auto-fit 47%; НАСТАВНИК СКАЗАЛ УБРАТЬ РАЗМЕРЫ ДЛЯ СТРОК, Я НЕ ПОНЯЛА, ПОЧЕМУ. ОСТАВЛЯЮ ДЛЯ СЕБЯ, ЧТОБЫ ПОТОМ ПОНЯТЬ*/
     column-gap: 32px;
   }
 }
@@ -25,50 +23,24 @@
 @media screen and (max-width: 768px) {
   .place {
     padding-bottom: 73px;
-    grid-template-columns: 47.2% 48.8%;
+    grid-template-columns: 340px 1fr;
     column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place:nth-of-type(4) {
+    padding-bottom: 72px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    padding-bottom: 50px;
+    grid-template-columns: 1fr;
+    gap: 32px;
   }
 }
 
 
 
-
-
-
-
-
-/*
-1280:
-  grid-template-columns: 1fr 484px;
-  grid-template-rows: 1fr 460px;
-  column-gap: 40px;
-  row-gap: 48px;
-*/
-
-
-
-/*
-.place для разрешения 1024{
-grid-template-columns: minmax(440px, 1fr) 456px;
-
-}
-*/
-
-
-/*
-.place для разрешения 768{
-grid-template-columns: minmax(340px, 1fr) 352px;
-
-}
-*/
-
-
-/*
-.place для разрешения 768{
-grid-template-columns: minmax(320px, maxcontent/1fr);
-
-}
-
-А ДЛЯ КАКОГО-НИТЬ ПРОМЕЖУТКА МОЖНО ЗАДАТЬ И:
-grid-template-columns: repeat(auto-fit, minmax(320/340px/440px, 1fr));
-*/

@@ -18,3 +18,23 @@
     left: 23%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    top: 24%;
+    left: 13%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    top: 18%;
+    left: 4%;
+  }
+}
+
+
+

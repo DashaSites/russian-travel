@@ -4,7 +4,6 @@
   margin-right: auto;
   margin-bottom: 92px;
   margin-left: auto;
-  outline: 1px solid red;
 }
 
 @media screen and (max-width: 1024px) {
@@ -17,5 +16,11 @@
   .content__lead {
     max-width: 100%;
     margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content__lead {
+    margin-bottom: 64px;
   }
 }
