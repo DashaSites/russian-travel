@@ -3,7 +3,7 @@
   height: 100%;
   text-decoration: none;
   position: relative;
-  transition: .3s
+  transition: .3s;
 }
 
 .cover__overlay:hover {
