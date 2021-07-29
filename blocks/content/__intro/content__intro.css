@@ -1,25 +1,25 @@
 .content__intro {
-  width: 76.8%;
+  width: 83.1%;
   margin-top: 0;
   margin-right: auto;
   margin-bottom: 92px;
   margin-left: auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .content__intro {
     width: 90.6%;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .content__intro {
     width: 93.7%;
     margin-bottom: 88px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .content__intro {
     width: 90%;
     margin-bottom: 64px;
