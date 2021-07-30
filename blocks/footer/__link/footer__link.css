@@ -11,7 +11,8 @@
 
 .footer__link:hover {
   cursor: pointer;
-  color: rgba(255, 255, 255, 0.8);
+  color: #fff;
+  opacity: .8;
 }
 
 @media screen and (max-width: 767px) {
@@ -27,6 +28,5 @@
   .footer__link:last-of-type {
     margin-bottom: 48px;
   }
-
 }
 

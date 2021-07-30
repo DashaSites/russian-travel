@@ -4,6 +4,9 @@
   margin-right: auto;
   margin-bottom: 24px;
   margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 @media screen and (max-width: 1279px) {
@@ -21,5 +24,7 @@
 @media screen and (max-width: 767px) {
   .page__footer {
     max-width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
