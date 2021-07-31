@@ -1,0 +1,31 @@
+.footer__list-item {
+  margin-right: 18px;
+  font-size: 16px;
+  line-height: 18px;
+  transition: 0.3s;
+}
+
+.footer__list-item:last-of-type {
+  margin-right: 0;
+}
+
+.footer__list-item:hover {
+  cursor: pointer;
+  color: #fff;
+  opacity: .8;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__list-item {
+    font-size: 24px;
+    line-height: 24px;
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+
+  .footer__list-item:last-of-type {
+    margin-bottom: 48px;
+  }
+}
+
+
