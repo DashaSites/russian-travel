@@ -1,0 +1,7 @@
+.places__block {
+    margin-bottom: 80px;
+}
+
+.places__block:last-of-type {
+    margin-bottom: 92px;
+}

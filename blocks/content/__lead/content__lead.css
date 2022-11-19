@@ -1,0 +1,21 @@
+.content__lead {
+    max-width: 83.1%;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 92px;
+    margin-left: auto; 
+
+    outline: 1px solid firebrick;
+  }
+  
+
+  /*
+  @media screen and (max-width: 1279px) {
+    .content__lead {
+      max-width: 90.6%;
+    }
+  }
+  */
+
+
+

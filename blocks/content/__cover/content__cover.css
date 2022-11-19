@@ -1,0 +1,9 @@
+.content__cover {
+    max-width: 100%;
+    outline: 1px solid darkcyan;
+    margin-bottom: 92px;
+    background-image: url(../../../images/cover-trains.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}

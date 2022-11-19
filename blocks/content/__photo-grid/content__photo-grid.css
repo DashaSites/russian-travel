@@ -1,0 +1,9 @@
+.content__photo-grid {
+    max-width: 100%;
+    margin-bottom: 92px;
+    outline: 1px solid firebrick;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;  
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 16px;
+}
