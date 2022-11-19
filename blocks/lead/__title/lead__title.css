@@ -8,3 +8,19 @@
   max-width: 73.1%;
   text-align: center;
 }
+
+
+@media screen and (max-width: 1023px) {
+  .lead__title {
+      max-width: 93.7%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .lead__title {
+    max-width: 90%;
+    font-size: 40px;
+    line-height: 44px;
+    margin-bottom: 16px;
+  }
+}
