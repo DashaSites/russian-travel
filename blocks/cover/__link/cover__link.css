@@ -1,6 +1,9 @@
 .cover__link {
     height: 100%;
     position: relative;
+    background-image: url(../../../images/cover-trains.jpg);
+    background-size: cover;
+    background-position: center;
     text-decoration: none;
     display: flex;
     flex-direction: column;
@@ -19,7 +22,7 @@
     min-height: 100%;
 }
 
-.content__cover:hover .cover__link::before {
+.cover__link:hover::before {
     cursor: pointer;
     opacity: 0.8;
 }
