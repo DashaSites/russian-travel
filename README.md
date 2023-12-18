@@ -1,4 +1,4 @@
-# Путешествия по России. Адаптивный сайт
+Adaptive, cross-browser website about travelling
 
 https://dashasites.github.io/russian-travel/
 
